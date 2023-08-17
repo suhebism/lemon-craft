@@ -10,7 +10,7 @@ const index = () => {
     <div className={styles.appNavbar}>
         <div className={styles.logo}><img src="https://i.ibb.co/sQmnKJs/logo.png" alt="" /></div>
         <div className={styles.appNavbarMenu}>
-            <Button text='Request Demo'/>
+            <Button text='Request a Demo'/>
             <div onClick={()=>setToggle(true)} className={styles.menu}>ME<br/>NU</div>
             {toggle &&(
                 <motion.div 
