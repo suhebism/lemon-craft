@@ -30,4 +30,30 @@
   justify-content: center;
   font-size: .8rem;
   color: white;
+  cursor: pointer;
+}
+
+.appHeroTop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.appHeroBottom{
+  display: flex;
+  align-items: center;
+  bottom: 5%;
+  position: absolute;
+  gap: 1rem;
+}
+
+.appHeroBottom a{
+  color: white;
+  font-size: .8rem;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+.appHeroBottom a:hover{
+  text-decoration: none;
+  
 }
