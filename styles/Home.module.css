@@ -6,8 +6,21 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+.appHero h1{
+  font-size: 5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #F6CE36;
+}
+.appHero p{
+  color: white;
+  font-weight: 200;
+}
 .customBtn{
   width: 140px;
   height: 35px;
