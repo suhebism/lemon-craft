@@ -57,3 +57,21 @@
   text-decoration: none;
   
 }
+
+@media screen and (max-width:600px) {
+  .appHero h1{
+    font-size: 4rem;
+  }
+  .appHero p{
+    font-size: .9rem;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .appHero h1{
+    font-size: 3rem;
+  }
+  .appHero p{
+    font-size: .7rem;
+  }
+}
