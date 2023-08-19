@@ -57,6 +57,10 @@
   text-decoration: none;
   
 }
+.cursor{
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
 
 @media screen and (max-width:600px) {
   .appHero h1{

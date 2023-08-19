@@ -1,0 +1,23 @@
+.appFooter{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://i.ibb.co/cYpPNyW/mainBg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footerLeft{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.subscribe{
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+}
+.footerRight{
+    width: 55%;
+}
