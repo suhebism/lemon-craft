@@ -57,9 +57,20 @@
   text-decoration: none;
   
 }
+.textAnimate{
+  display: flex;
+  align-items: center;
+}
+.textAnimate h2{
+  color: #F6CE36;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
 .cursor{
   color: rgb(255, 255, 255);
   font-weight: 400;
+  font-size: 4rem;
 }
 
 @media screen and (max-width:600px) {
