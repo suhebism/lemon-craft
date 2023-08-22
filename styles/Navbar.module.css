@@ -296,3 +296,22 @@
   background-color: rgb(90, 90, 90);
   color: white;
 }
+
+@media screen and (max-width:400px) {
+  .form{
+    width: 90%;
+    height: 90%;
+    flex-direction: column;
+  }
+  .modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .formRight{
+    width: 100%;
+  }
+  .formLeft{
+    padding: 1rem 0;
+  }
+}

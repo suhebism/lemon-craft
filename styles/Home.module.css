@@ -84,7 +84,7 @@
 
 @media screen and (max-width:400px) {
   .appHero h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .appHero p{
     font-size: .7rem;
