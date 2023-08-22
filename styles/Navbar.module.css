@@ -313,6 +313,6 @@
     width: 100%;
   }
   .formLeft{
-    padding: 1rem 0;
+    display: none;
   }
 }
