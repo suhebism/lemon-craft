@@ -5,6 +5,14 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Modal from "react-modal";
 import { TiCancel } from "react-icons/ti";
+import { HiChatAlt2 } from "react-icons/hi";
+import { FaMapLocationDot } from "react-icons/fa6";
+import { IoCall } from "react-icons/io5";
+import { AiFillFacebook } from "react-icons/ai";
+import { AiOutlineTwitter } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
+import { AiFillYoutube } from "react-icons/ai";
 const customStyles = {
   content: {
     top: "50%",
@@ -23,7 +31,7 @@ const index = () => {
     setIsOpen(true);
   }
   function afterOpenModal() {
-    subtitle.style.color = "#F37446";
+    // subtitle.style.color = "#F37446";
   }
 
   function closeModal() {
@@ -87,14 +95,111 @@ const index = () => {
         onRequestClose={closeModal}
         style={customStyles}
         contentLabel="Example Modal"
+        className={styles.modal}
       >
         <div className={styles.form}>
-          <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Hello</h2>
-          <button onClick={closeModal}>close</button>
-          <div>I am a modal</div>
-          <form>
-            <input />
+          <div className={styles.formLeft}>
+            <div className={styles.formLeftTop}>
+              <div className={styles.icons}>
+                <div className={styles.iconBorder}>
+                  <HiChatAlt2 />
+                </div>
+                <div className={styles.iconDetails}>
+                  <h1>Chat to us</h1>
+                  <p>Our friendly team is here to help.</p>
+                  <a href="">hi@lemoncraft.in</a>
+                </div>
+              </div>
+              <div className={styles.icons}>
+                <div className={styles.iconBorder}>
+                  <FaMapLocationDot />
+                </div>
+                <div className={styles.iconDetails}>
+                  <h1>Visit Us</h1>
+                  <p>Come say hello at our office HQ.</p>
+                  <a href="">Delhi, India</a>
+                </div>
+              </div>
+              <div className={styles.icons}>
+                <div className={styles.iconBorder}>
+                  <IoCall />
+                </div>
+                <div className={styles.iconDetails}>
+                  <h1>Chat to us</h1>
+                  <p>Our friendly team is here to help.</p>
+                  <a href="">hi@lemoncraft.in</a>
+                </div>
+              </div>
+            </div>
+            <div className={styles.formLeftBottom}>
+              <div className={styles.iconSocials}>
+                <Link href="/" className={styles.iconBorder}>
+                  <AiFillFacebook />
+                </Link>
+                <Link href="/" className={styles.iconBorder}>
+                  <AiOutlineTwitter />
+                </Link>
+                <Link href="/" className={styles.iconBorder}>
+                  <AiFillLinkedin />
+                </Link>
+                <Link href="/" className={styles.iconBorder}>
+                  <AiFillInstagram />
+                </Link>
+                <Link href="/" className={styles.iconBorder}>
+                  <AiFillYoutube />
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className={styles.formRight}>
+            <div className={styles.fillup}>
+              <h1>Got ideas? We’ve got the skills. Let’s team up.</h1>
+              <p>Tell us more about yourself and what you’re got in mind.</p>
+              <input placeholder="Name" />
+              <input placeholder="Email" />
+              <input placeholder="Mobile" />
+              <input placeholder="Message" />
+              <div className={styles.formServices}>
+                <p>How can we help?</p>
+              <div className={styles.selection}> 
+                <label class={styles.container}>
+                  Website Design
+                  <input type="checkbox" />
+                  <span class={styles.checkmark}></span>
+                </label>
+                <label class={styles.container}>
+                Website Design
+                  <input type="checkbox" />
+                  <span class={styles.checkmark}></span>
+                </label>
+                <label class={styles.container}>
+                Website Design
+                  <input type="checkbox" />
+                  <span class={styles.checkmark}></span>
+                </label>
+                <label class={styles.container}>
+                Website Design
+                  <input type="checkbox" />
+                  <span class={styles.checkmark}></span>
+                </label>
+                <label class={styles.container}>
+                Website Design
+                  <input type="checkbox" />
+                  <span class={styles.checkmark}></span>
+                </label>
+                <label class={styles.container}>
+                Website Design
+                  <input type="checkbox" />
+                  <span class={styles.checkmark}></span>
+                </label>
+              </div>
+              </div>
+            </div>
+            <div className={styles.customBtn}>Let’s get Started</div>
+          </div>
 
+          {/* <form>
+            <input />
             <label class={styles.container}>
               One
               <input type="checkbox" />
@@ -115,7 +220,7 @@ const index = () => {
               <input type="checkbox" />
               <span class={styles.checkmark}></span>
             </label>
-          </form>
+          </form> */}
         </div>
       </Modal>
     </>
