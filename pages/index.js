@@ -4,7 +4,12 @@ import styles from '@/styles/Home.module.css'
 import Hero from '../components/Hero';
 import Wrapper from '@/components/Wrapper';
 import Services from '../components/Services'
+import AboutUs from '../components/AboutUs';
+import WhyChooseUs from '../components/WhyChooseUs'
 export default function Home() {
+  const countries=[
+
+  ]
   return (
     <>
       <Head>
@@ -14,10 +19,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        
           <Hero/>
-
           <Services/>
+          <AboutUs/>
+          <WhyChooseUs/>
       </main>
     </>
   )

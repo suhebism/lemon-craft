@@ -46,7 +46,13 @@ const index = () => {
         </Link>
         <div className={styles.appNavbarMenu}>
           <div onClick={openModal}>
+            <motion.div whileHover={{
+    scale: 1.1,
+    transition: { duration: .5 },
+  }}
+  whileTap={{ scale: 0.9 }}>
             <Button text="Request a Demo"></Button>
+            </motion.div>
           </div>
           <div onClick={() => setToggle(true)} className={styles.menu}>
             ME

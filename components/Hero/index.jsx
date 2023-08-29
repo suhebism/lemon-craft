@@ -52,7 +52,15 @@ const index = () => {
       </motion.div>
       <div className={styles.appHeroBottom}>
         <Link href="about">our Projects</Link>
+        <motion.div 
+        whileHover={{
+          scale: 1.1,
+          transition: { duration: .5 },
+        }}
+        whileTap={{ scale: 0.9 }}
+        >
         <Button text="Demo"></Button>
+        </motion.div>
       </div>
     </div>
   );

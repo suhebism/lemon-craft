@@ -1,0 +1,45 @@
+.main{
+    /* height: 200vh; */
+    background-color: #C0DBDF;
+    /* padding: 3rem; */
+}
+.lemonSlide{
+    height: 70vh;
+    padding-top: 10rem;
+}
+.yellowSlide{
+    width: 70%;
+    height: 250px;
+    background-color: #FACB31;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lemon img{
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.lemon{
+    color: #353535;
+    text-align: center;
+}
+.lemon h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width:400px) {
+    .lemon img{
+        width: 150px;
+    }
+    .yellowSlide{
+        width: 100%;
+        height: 150px;
+        background-color: #FACB31;
+    }
+    .lemon h1{
+        font-size: 1.5rem;
+    }
+}
