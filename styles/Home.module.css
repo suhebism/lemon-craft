@@ -89,12 +89,8 @@
   .appHero p{
     font-size: .7rem;
   }
-  .servicesContent{
-    padding-right: 0;
-  }
-  .servicesContent{
-    gap: 1rem;
-  }
+  
+  
 }
 .servicesTab{
   max-height: 100vh;
@@ -111,7 +107,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   color: white;
 
 }
@@ -123,7 +119,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 2rem;
+  gap: 1rem;
 }
 .verticalLine img{
   width:20px;
@@ -132,17 +128,22 @@
 .servicesContent{
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   width: 60%;
-  
 }
 .servicesContent div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* .servicesContent div{
   scroll-snap-type: y mandatory;
-}
-.servicesContent::-webkit-scrollbar{
+} */
+/* .servicesContent::-webkit-scrollbar{
   display: none;
-}
-.servicesContent h3{
+} */
+.servicesContent div h3{
   font-size: 2rem;
 }
 .servicesContent p{
@@ -151,18 +152,39 @@
   font-weight: 200;
 }
 .lemonServices{
-  /* position: absolute; */
+  position: absolute;
   width: 200px;
-  /* right: 0; */
+  right: 0;
 }
 .servicesTab{
-  scroll-behavior: smooth;
-  overflow-y: scroll;
+  /* scroll-behavior: smooth; */
+  /* overflow-y: scroll; */
+  width: 100%;
 }
 .servicesContent a{
   text-decoration: underline;
   text-underline-offset:8px;
 }
+@media screen and (max-width:400px) {
+  .servicesContent div h3{
+    font-size: 1rem;
+  }
+  .servicesContent div p{
+    font-size: .8rem;
+    line-height: 1rem;
+  }
+  .verticalLine p{
+    font-size: .5rem;
+  }
+  .lemonServices{
+    position: absolute;
+    width: 50px;
+    right: 0;
+  }
+}
+
+
+
 
 .aboutUs{
   height: 90vh;
