@@ -20,9 +20,9 @@ const index = () => {
           </motion.div>
           <motion.div
             className={styles.lemon}
-            initial={{   x: -1000, }}
-            whileInView={{opacity: 1, scale:1, x:100}}
-            transition={{ duration: 1, ease: "easeOut" }}
+            // initial={{   x: -1000, }}
+            // whileInView={{opacity: 1, scale:1, x:100}}
+            // transition={{ duration: 1, ease: "easeOut" }}
           >
             <img src="https://i.ibb.co/WPXRzS2/lemon.png" alt="" />
           </motion.div>
