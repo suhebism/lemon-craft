@@ -42,8 +42,8 @@
 .appHeroBottom{
   display: flex;
   align-items: center;
-  bottom: 5%;
-  position: absolute;
+  bottom: -200px;
+  position: relative;
   gap: 1rem;
 }
 
@@ -155,6 +155,7 @@
   position: absolute;
   width: 200px;
   right: 0;
+  z-index: 10;
 }
 .servicesTab{
   /* scroll-behavior: smooth; */
@@ -177,9 +178,17 @@
     font-size: .5rem;
   }
   .lemonServices{
-    position: absolute;
+    position: relative;
     width: 50px;
-    right: 0;
+    bottom: 50px;
+    top: 50px;
+    right: -20px;
+  }
+  .verticalLine{
+    height: 50vh;
+  }
+  .services{
+    height: 70vh;
   }
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../styles/Home.module.css";
 import Link from "next/link";
-import  { ScrollRotate } from 'react-scroll-rotate';
+// import  { ScrollRotate } from 'react-scroll-rotate';
 const index = () => {
   return (
     <div className={styles.servicesTab}>
