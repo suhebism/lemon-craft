@@ -216,20 +216,21 @@
   align-items: center;
   
 }
+.aboutUs h1{
+  letter-spacing: .5rem;
+}
 .aboutUsTitle img{
   width: 50px;
   margin-right: -2rem;
 }
-.aboutUs p{
-  text-transform: none;
-  text-align: left;
-  font-size: 1.5rem;
-}
+/* .aboutUs p{
+  
+} */
 .aboutUs  a{
   margin-top: 3rem;
   text-decoration: underline;
   text-underline-offset:8px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .aboutUsDetails{
   display: flex;
@@ -241,4 +242,10 @@
 }
 .aboutUsDetails img{
   width: 200px;
+}
+.aboutUsDetails p{
+  width: 80%;
+  text-transform: none;
+  text-align: left;
+  font-size: 1.3rem;
 }

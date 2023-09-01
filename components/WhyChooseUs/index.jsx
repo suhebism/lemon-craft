@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const index = () => {
   return (
     <div className={styles.main}>
-        <div className={styles.lemonSlide}>
+        {/* <div className={styles.lemonSlide}>
        <div className={styles.yellowSlide}>
          <motion.div
             className={styles.lemon}
@@ -27,7 +27,7 @@ const index = () => {
             <img src="https://i.ibb.co/WPXRzS2/lemon.png" alt="" />
           </motion.div>
         </div>
-      </div>
+      </div> */}
         <div className={styles.lowerWhychooseUs}>   
             <h1>Why Choose Us?</h1>
             <p>Sharp-eyed analysis, to construct what you eye,  to elevate your brand’s success.</p>

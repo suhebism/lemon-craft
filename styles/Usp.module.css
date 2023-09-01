@@ -1,0 +1,86 @@
+.main{
+    width: 100vw;
+    height: 150vh;
+    background-color: #40784F;
+    padding: 5rem 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5rem;
+}
+.verticalLine{
+    width: 1px;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+.verticalLine p{
+    font-size: .8rem;
+    color: white;
+}
+.verticalLine img{
+    width:20px;
+    margin-right: -.6rem;
+}
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    gap: 3rem;
+}
+.mainContent h3{
+    color: white;
+    font-size: 2.5rem;
+
+}
+.mainContent h1{
+    color: white;
+    font-size: 4rem;
+}
+.uspMainButton{
+    background-color: #FACB31;
+    width: 600px;
+    height: 40px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #333333;
+}
+.uspMainButton:hover{
+    box-shadow: 0px 0px 10px 5px rgba(72, 72, 72, 0.336);
+    transition: all ease-in-out .2s;
+}
+.mainContent p{
+    width: 60%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 200;
+}
+.mainLower{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 100vw;
+}
+.mainLower img{
+    width: 350px;
+}
+.mainLower h1{
+    font-size: 3rem;
+    color: white;
+}
+.mainLower p{
+    font-size: 2rem;
+    color: white;
+    font-weight: 200;
+}

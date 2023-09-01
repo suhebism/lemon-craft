@@ -28,6 +28,9 @@
     font-size: 3rem;
     text-transform: uppercase;
 }
+.lowerWhychooseUs h1{
+    text-transform: uppercase;
+}
 .lowerWhychooseUs{
     height: 100vh;
     width: 100%;
@@ -36,6 +39,7 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    color: #353535;
 }
 .whychooseUsContent{
     display: flex;
@@ -81,8 +85,8 @@
   }
   .verticalLine2{
     width: 2px;
-    height: 30vh;
-    background-color: rgb(101, 101, 101);
+    height: 45vh;
+    background-color: #FACB31;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -98,18 +102,22 @@
     flex-direction: column;
     gap: .4rem;
     cursor: pointer;
+    padding: .5rem;
+    /* border-radius: 10px; */
   }
-  .build p,.grow p{
+  /* .build p,.grow p{
     display: none;
+  } */
+  .explore:hover h3, .build:hover h3, .grow:hover h3{
+    color: #FACB31;
+    transition: all ease-in-out .3s;
   }
-  .build:hover p{
-    display: block;
-    transition: all ease-in-out 1s;
+  .explore:hover , .build:hover , .grow:hover {
+    border: 1px solid #353535;
+    transition: all ease-in-out .3s;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.247);
   }
-  .grow:hover p{
-    display: block;
-    transition: all ease-in-out 1s;
-  }
+ 
 @media screen and (max-width:400px) {
     .lemon img{
         width: 150px;

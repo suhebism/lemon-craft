@@ -1,0 +1,25 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FACB31;
+    padding: 2rem 3rem;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    color: #40784F;
+    margin: 0 auto;
+}
+.titleSection h1{
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 6rem;
+}
+.title img{
+    width: 40px;
+    margin-right: -2rem;
+}
