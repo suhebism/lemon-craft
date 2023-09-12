@@ -15,7 +15,7 @@ const index = () => {
             <div className={styles.footerBtn}>Submit</div>
           </div>
           <div className={styles.mobilesUpdate}>
-            <h1>Whatsapp Updates</h1>
+            <h1>Whatsapp Update</h1>
             <input type="text" name="" id="" placeholder='Your number' />
             <div className={styles.footerBtn}>Submit</div>
           </div>
