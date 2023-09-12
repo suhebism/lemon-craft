@@ -151,11 +151,22 @@
   line-height: 2rem;
   font-weight: 200;
 }
+
+@keyframes rotating {
+  from{
+      -webkit-transform: rotate(0deg);
+  }
+  to{
+      -webkit-transform: rotate(360deg);
+  }
+}
+
 .lemonServices{
   position: absolute;
-  width: 200px;
-  right: 0;
+  width: 400px;
+  right: -200px;
   z-index: 10;
+  animation: rotating 10s linear infinite;
 }
 .servicesTab{
   /* scroll-behavior: smooth; */

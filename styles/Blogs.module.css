@@ -23,3 +23,33 @@
     width: 40px;
     margin-right: -2rem;
 }
+.blogCards{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 3rem 0px;
+    /* overflow: hidden; */
+    overflow-y: scroll;
+}
+.blogCard{
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 0px 50px;
+    border: 1px solid black;
+}
+.blogCard img{
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    border-radius:0px 50px 0px 0px;
+}
+.blogEnterLink{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

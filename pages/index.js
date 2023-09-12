@@ -10,6 +10,7 @@ import Usp from '../components/Usp';
 import Wework from '../components/Wework';
 import Projects from '../components/Projects';
 import Blogs from '../components/Blogs';
+import Testimonials from '../components/Testimonials'
 export default function Home() {
   return (
     <>
@@ -28,6 +29,7 @@ export default function Home() {
           <Wework/>
           <Projects/>
           <Blogs/>
+          <Testimonials/>
       </main>
     </>
   )

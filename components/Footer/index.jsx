@@ -28,8 +28,8 @@ const index = () => {
           </Link>
           <div className={styles.impLinks}>
             <Link href='/about'>About</Link>
-            <Link href='/about'>Why Choose Us</Link>
-            <Link href='/about'>How we work</Link>
+            <Link href='/why-chose-us'>Why Choose Us</Link>
+            <Link href='/how-we-work'>How we work</Link>
           </div>
           <div className={styles.industries}>
             <h1>INDUSTRIES</h1>
@@ -51,7 +51,7 @@ const index = () => {
             <div>
               <Link href='/about'>Strategy</Link>
               <Link href='/about'>Development</Link>
-              <Link href='/about'>Design</Link>
+              <Link href='/design'>Design</Link>
               <Link href='/about'>Digital</Link>
               <Link href='/about'>Branding</Link>
             </div>

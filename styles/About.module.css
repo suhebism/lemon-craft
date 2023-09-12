@@ -1,0 +1,207 @@
+.header{
+    height: 100vh;
+    background-color: #959595;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: #FACB31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+    gap: 2rem;
+}
+.about h1{
+    z-index: 10;
+}
+.about div{
+    width: 100%;
+    padding-left:  5rem;
+}
+.about div p{
+    width: 40%;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.about  img{
+    width: 50px;
+    margin-top: -5rem;
+}
+
+.founders{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.founders h1{
+    z-index: 10;
+}
+.founders  img{
+    width: 50px;
+    margin-top: -5rem;
+}
+.foundersPics{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.sachin, .kumar{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 4rem;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sachin img, .kumar img{
+    width: 200px;
+    border-bottom: 5px solid #FDD237;
+}
+.sachin, .kumar p{
+    line-height: 1.5rem;
+}
+.mvv{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FACB31;
+    /* padding: 5rem; */
+    gap: 5rem;
+}
+.box1,.box2,.box3{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 50px 0 50px 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.box1{
+    margin-top: -10rem;
+}
+.box3{
+    margin-top: 10rem;
+}
+.flipboxfront svg,.flipboxfront svg,.flipboxfront svg{
+    font-size: 4rem;
+    color: #FACB31  ;
+}
+.line{
+    height: 4px;
+    width: 80%;
+    background-color: #FACB31;
+}
+.flipboxfront p,.flipboxfront p,.flipboxfront p{
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: left;
+}
+.box1:hover,.box2:hover,.box3:hover{
+    transform: rotateY(180deg);
+}
+.flipBox {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    /* border: 1px solid #f1f1f1; */
+    perspective: 1000px;
+  }
+  
+  .flipboxinner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flipBox:hover .flipboxinner {
+    transform: rotateY(180deg);
+  }
+  
+  .flipboxfront, .flipboxback {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 50px 0 50px 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: white;
+  }
+  
+  .flipboxfront {
+    background-color: white;
+    color: black;
+  }
+  
+  .flipboxback {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flipboxfront img{
+    width: 200px;
+  }
+
+  #box1{
+    margin-top: -10rem;
+  }
+  .team{
+    height: auto;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 5rem;
+}
+
+  .team h1{
+    z-index: 10;
+}
+.team  img{
+    width: 50px;
+    margin-top: -5rem;
+}
+.members{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.member img{
+    width: 200px;
+}

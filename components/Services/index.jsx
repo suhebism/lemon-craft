@@ -28,7 +28,7 @@ const index = () => {
         </div>
         <Link href='/'>See more</Link>
       </div>
-      <img className={styles.lemonServices} src="https://i.ibb.co/44VTZQd/lemon-Services.png" alt="" />
+      <img className={styles.lemonServices} src="https://i.ibb.co/10StF0v/lemon-Services.png" ></img>
     </div>
     </div>
   );
