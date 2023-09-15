@@ -1,7 +1,5 @@
 import React from 'react';
 import styles from '../../styles/Footer.module.css'
-import Wrapper from '../Wrapper';
-import Button from '../Button';
 import Link from 'next/link';
 const index = () => {
   return (

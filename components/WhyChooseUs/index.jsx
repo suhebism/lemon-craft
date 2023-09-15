@@ -30,14 +30,19 @@ const index = () => {
       </div> */}
         <div className={styles.lowerWhychooseUs}>   
             <h1>Why Choose Us?</h1>
-            <p>Sharp-eyed analysis, to construct what you eye,  to elevate your brand’s success.</p>
+            <p className={styles.ptag}>Sharp-eyed analysis, to construct what you eye, to elevate your brand’s success.</p>
             <div className={styles.whychooseUsContent}>
               <div className={styles.left}>
                 <div className={styles.verticalLine}>
                   <p>Why?</p>
                   <img src="https://i.ibb.co/BLGT1fs/scroll-Cursor.png" alt="" />
                 </div>
-                <img className={styles.whychooseUsContentImg} src="https://i.ibb.co/Bft7vRd/Lemon-Slices-01.png" alt="" />
+                <div className={styles.circlesAnimation}>
+                  <div className={styles.floating}></div>
+                  <div className={styles.floating1}></div>
+                  <div className={styles.floating3}></div>
+                </div>
+                {/* <img className={styles.whychooseUsContentImg} src="https://i.ibb.co/Bft7vRd/Lemon-Slices-01.png" alt="" /> */}
               </div>
               <div className={styles.right}>
                 <p>Our dynamic three-stage framework is meticulously designed to suit the unique needs and challenges of your brand and facilitate premier digital experience for you.</p>

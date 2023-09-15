@@ -189,11 +189,12 @@
     font-size: .5rem;
   }
   .lemonServices{
-    position: relative;
+    display: none;
+    /* position: relative;
     width: 50px;
     bottom: 50px;
     top: 50px;
-    right: -20px;
+    right: -20px; */
   }
   .verticalLine{
     height: 50vh;
@@ -207,7 +208,7 @@
 
 
 .aboutUs{
-  height: 90vh;
+  height: 100vh;
   background-color: #FACB31;
   width: 100vw;
   display: flex;
@@ -250,6 +251,7 @@
   padding: 0 3rem;
   width: 60%;
   text-transform: none;
+  flex-direction: row;
 }
 .aboutUsDetails img{
   width: 200px;
@@ -259,4 +261,25 @@
   text-transform: none;
   text-align: left;
   font-size: 1.3rem;
+}
+
+@media screen and (max-width:400px) {
+  .aboutUsDetails{
+    flex-direction: column;
+    width: 100%;
+  }
+  .aboutUs h1{
+    letter-spacing: 0rem;
+    font-size: 1.4rem;
+    text-transform: none;
+  }
+  .aboutUsDetails img{
+    display: none;
+  }
+  .aboutUsDetails p{
+    width: 100%;
+  }
+  .aboutUs{
+    height: 70vh;
+  }
 }
